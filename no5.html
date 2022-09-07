@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Manipulasi -->
+    <div class="Hello World">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque distinctio deserunt, nisi expedita rem, quasi ab possimus nemo culpa dicta a non est magnam ducimus! Natus deserunt facilis cumque? Quos.</div>
+
+    <script>
+        document.getElementsByClassName("Hello World");
+    </script>
+
+    <!-- Create -->
+    <script>
+        var img=document.createElement("img");
+        img.src = "js.png";
+
+        document.body.appendChild(img)
+    </script>
+
+    <!-- Remove -->
+    <h2 id="belajar">kata js DOM sudah dihapus</h2>
+    <h3 id="js DOM">kata belajar sudah dihapus</h3>
+
+    <script>
+        var h2=document.getElementById('belajar');
+        var h3=document.getElementById('js DOM');
+
+        // h3.remove();
+        h2.remove();
+    </script>
+</body>
+</html>

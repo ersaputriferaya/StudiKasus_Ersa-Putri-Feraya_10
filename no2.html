@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="paragraf"></div>
+
+    <script>
+        var paragraf = document.getElementById("paragraf");
+        paragraf.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, nostrum saepe? Beatae doloremque labore laboriosam consequuntur deserunt consectetur vero corrupti, quaerat ullam sunt atque veritatis! Nisi distinctio aperiam error modi!";
+        paragraf.style.color = "pink";
+    </script>
+
+    <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi exercitationem eligendi
+        dicta amet libero eum corporis, explicabo vero in commodi, soluta voluptate at velit placeat fugiat. Quos
+        perferendis quisquam nesciunt.</p>
+
+    <script>
+        var paragraf = document.getElementsByClassName("paragraf");
+        paragraf[0].style.color = "blue"; 
+    </script>
+
+    <p name="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fuga repellat tempora, commodi in
+        quisquam repudiandae distinctio voluptatem, dolorem quibusdam libero adipisci cumque obcaecati ex perspiciatis
+        similique eveniet officiis quaerat?</p>
+
+    <script>
+        var paragraf = document.getElementsByName("paragraf");
+        paragraf[0].style.backgroundColor = "purple";
+        paragraf[0].style.color = "white";
+    </script>
+
+</body>
+
+</html>
